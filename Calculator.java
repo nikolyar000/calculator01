@@ -5,7 +5,7 @@ import java.awt.event.*;
 public class Calculator implements ActionListener{
 
     JFrame frame;
-    JText textfield;
+    JTextField textfield;
     JButton[] numberButtons = new JButton[10];
     JButton[] functionButtons = new JButton[9];
     JButton addButton, subButton, mulButton, divButton;
@@ -106,7 +106,7 @@ public class Calculator implements ActionListener{
     public void actionPerformed(ActionEvent e){
 
         for(int i=0;i<10;i++){
-            if(e.getSource() == numberButton[i]){
+            if(e.getSource() == numberButtons[i]){
                 textfield.setText(textfield.getText().concat(String.valueOf(i)));
             }
         }
