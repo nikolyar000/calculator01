@@ -10,8 +10,17 @@
 			"version": "none",
 			"installMaven": "true",
 			"installGradle": "false"
+		}, 
+		"ghcr.io/devcontainers/features/desktop-lite:1": {
+			"password": "sosat",
+			 "webPort": "6080",
+        			"vncPort": "5901"
+
 		},
-		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
+
+		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {
+
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
